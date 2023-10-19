@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <main>
+      <aside> <!--기능 메뉴-->
+         <ul class="colors">
+            <li>
+               <button class="red" data-color="red">red</button>
+            </li>
+            <li>
+               <button class="yellow" data-color="yellow">yellow</button>
+            </li>
+            <li>
+               <button class="green" data-color="green">green</button>
+            </li>
+            <li>
+               <button class="blue" data-color="blue">blue</button>
+            </li>
+            <li>
+               <button class="black" data-color="black">black</button>
+            </li>
+         </ul>
+         <ul>
+            <li><button class="control-btn" id="pen-line"><i class="fa-solid fa-pen"></i></button></li>
+            <li><button class="control-btn" id="eraser"><i class="fa-solid fa-eraser"></i></button></li>
+            <li><button class="control-btn" id="fill"><i class="fa-solid fa-wand-magic"></i></button></li>
+            <li><button class="control-btn" id="undo"><i class="fa-solid fa-rotate-left"></i></button></li>
+            <li><button class="control-btn" id="redo"><i class="fa-solid fa-rotate-right"></i></button></li>
+            <li><button class="control-btn" id="download"><i class="fa-solid fa-download"></i></button></li>
+            
+         </ul>
+         
+      </aside>
+      <canvas id="drawing" width='800px' height='600px'></canvas>
+      <!-- <canvas id="background" width='800px' height='600px'></canvas> -->
+
+   </main>
+</body>
+<script src="index.js"></script>
+
+</html>
